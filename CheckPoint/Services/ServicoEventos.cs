@@ -35,5 +35,19 @@ namespace CheckPoint.Services
             var result = await _collectionEventos.DeleteOneAsync(x => x.Id == id);
             return result.DeletedCount > 0;
         }
+
+        public async Task<List<Evento>> GetHalfAsync(int pagina, int qtd)
+        {
+            return await _collectionEventos
+               .Find(_ => true)
+               .Skip((pagina - 1) * qtd)
+               .Limit(qtd)
+               .ToListAsync();
+        }
+
+        public async Task<long> CountAsync()
+        {
+            return await _collectionEventos.CountDocumentsAsync(_ => true);
+        }
     }
 }
