@@ -1,17 +1,17 @@
 ﻿using CheckPoint.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt; 
-using System.Security.Claims; 
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 
 [Route("api/[controller]")]
 [ApiController]
-public class authController : ControllerBase
+public class AuthController : ControllerBase
 {
     private readonly IConfiguration _config;
 
-    public authController(IConfiguration config)
+    public AuthController(IConfiguration config)
     {
         _config = config;
     }
@@ -35,11 +35,23 @@ public class authController : ControllerBase
                     Expires = DateTime.UtcNow.AddHours(1),
                     SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
                 };
+                try
+                {
+                    var token = tokenHandler.CreateToken(tokenDescriptor);
+                    var tokenString = tokenHandler.WriteToken(token);
+                    return Ok(new { Token = tokenString });
+                }
+                catch (Exception ex)
+                {
+                    // Loga internamente (ou imprime pro console por enquanto)
+                    Console.WriteLine($"Erro ao gerar token JWT: {ex.Message}");
 
-                var token = tokenHandler.CreateToken(tokenDescriptor);
-                var tokenString = tokenHandler.WriteToken(token);
+                    // Retorna erro genérico pro cliente
+                    return StatusCode(500, new { Error = "Erro interno ao gerar token." });
+                }
 
-                return Ok(new { Token = tokenString });
+
+
             }
             return Unauthorized();
         }
