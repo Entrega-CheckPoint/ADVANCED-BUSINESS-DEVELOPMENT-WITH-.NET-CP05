@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FiuFiu\\Downloads\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj": {}
+    "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FiuFiu\\Downloads\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj": {
+    "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FiuFiu\\Downloads\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
+        "projectUniqueName": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
         "projectName": "CheckPoint",
-        "projectPath": "C:\\Users\\FiuFiu\\Downloads\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
-        "packagesPath": "C:\\Users\\FiuFiu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FiuFiu\\Downloads\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\obj\\",
+        "projectPath": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
+        "packagesPath": "C:\\Users\\xfran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FiuFiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xfran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

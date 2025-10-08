@@ -3,7 +3,7 @@
     public class ConnectionStrings
     {
         public string MongoConnection { get; set; }
-        public string DatabaseName { get; set; }
+        public string DatabaseName { get; set; } = "CP05";
         public string CollectionName { get; set; } = "Eventos";
     }
 }
