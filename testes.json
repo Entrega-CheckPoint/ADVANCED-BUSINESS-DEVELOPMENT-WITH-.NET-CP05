@@ -1,0 +1,21 @@
+[
+  {
+    "titulo": "Workshop: Startup do Zero",
+    "descricao": "Aprenda a montar sua startup desde a ideia até o pitch para investidores.",
+    "data": "2025-10-20T14:30:00Z",
+    "local": "Sala 101",
+    "categoria": "Negócios",
+    "capacidadeMaxima": 60,
+    "dataCriacao": "2025-10-09T21:30:48.154Z"
+  },
+
+  {
+    "titulo": "Noite Cultural: Música & Arte",
+    "descricao": "Exposição de arte com apresentações musicais ao vivo.",
+    "data": "2025-10-25T18:00:00Z",
+    "local": "Espaço FIAP Cultural",
+    "categoria": "Cultura",
+    "capacidadeMaxima": 100,
+    "dataCriacao": "2025-10-09T21:30:48.154Z"
+  }
+]

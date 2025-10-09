@@ -1,4 +1,5 @@
-﻿using CheckPoint.Model;
+﻿using CheckPoint.Dto;
+using CheckPoint.Model;
 using CheckPoint.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -54,13 +55,13 @@ namespace CheckPoint.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult<Evento>> Create([FromBody] Evento evento)
+        public async Task<ActionResult<Evento>> Create([FromBody] EventoDto evento)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var novoEvento = await _service.CreateAsync(evento);
-            return CreatedAtRoute("Evento", new { id = novoEvento.Id }, evento);
+            return CreatedAtRoute("Evento", new { id = novoEvento.Id }, novoEvento);
         }
 
         [HttpPut("{id}")]

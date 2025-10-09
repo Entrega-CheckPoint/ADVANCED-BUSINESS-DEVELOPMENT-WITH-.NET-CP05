@@ -1,0 +1,15 @@
+- Grupo
+
+| NOME                        | RM     |
+| --------------------------- | ------ |
+| Francesco M Di Benedetto    | 557313 |
+| Samuel Patrick Yariwake     | 556461 |
+| Luiz Felipe Campos da Silva | 555591 |
+
+- Repositório no GITS
+
+https://github.com/Entrega-CheckPoint/ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05
+
+- Link do video
+
+https://www.youtube.com/watch?v=zelmH0AUo0A

@@ -1,4 +1,5 @@
-﻿using CheckPoint.Model;
+﻿using CheckPoint.Dto;
+using CheckPoint.Model;
 using MongoDB.Driver;
 
 namespace CheckPoint.Services
@@ -18,8 +19,19 @@ namespace CheckPoint.Services
         public async Task<Evento?> GetEventoIdAsync(string id) =>
             await _collectionEventos.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-        public async Task<Evento> CreateAsync(Evento evento)
+        public async Task<Evento> CreateAsync(EventoDto dto)
         {
+            var evento = new Evento
+            {
+                Titulo = dto.Titulo,
+                Descricao = dto.Descricao,
+                Data = dto.Data,
+                Local = dto.Local,
+                Categoria = dto.Categoria,
+                CapacidadeMaxima = dto.CapacidadeMaxima,
+                DataCriacao = dto.DataCriacao,
+            };
+
             await _collectionEventos.InsertOneAsync(evento);
             return evento;
         }

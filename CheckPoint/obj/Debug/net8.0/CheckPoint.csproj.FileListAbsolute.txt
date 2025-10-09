@@ -130,10 +130,10 @@ C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-W
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\CheckPoint.csproj.Up2Date
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\CheckPoint.dll
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\refint\CheckPoint.dll
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\CheckPoint.pdb
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\CheckPoint.genruntimeconfig.cache
 C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\ref\CheckPoint.dll
+C:\Users\xfran\Desktop\2TDSPV\Entrega-CheckPoint\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\CheckPoint\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

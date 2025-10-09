@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\services\\servicoeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:services\\servicoeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\dto\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:dto\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\model\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:model\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|c:\\users\\xfran\\desktop\\2tdspv\\entrega-checkpoint\\advanced-business-development-with-.net-cp05\\checkpoint\\checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{73CDAB8F-BBE1-4E64-B3C7-876785660EB6}|CheckPoint.csproj|solutionrelative:checkpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwE8AAAADAAAAAAAAAA==",
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "Controllers\\EventoController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T21:40:02.477Z",
+              "WhenOpened": "2025-10-09T21:45:12.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Model\\Evento.cs",
+              "RelativeDocumentMoniker": "Model\\Evento.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Model\\Evento.cs",
+              "RelativeToolTip": "Model\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:43:20.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicoEventos.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Services\\ServicoEventos.cs",
+              "RelativeDocumentMoniker": "Services\\ServicoEventos.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Services\\ServicoEventos.cs",
+              "RelativeToolTip": "Services\\ServicoEventos.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:41:17.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventoDto.cs",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Dto\\EventoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\EventoDto.cs",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\Dto\\EventoDto.cs",
+              "RelativeToolTip": "Dto\\EventoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T21:40:20.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CheckPoint",
+              "DocumentMoniker": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
+              "RelativeDocumentMoniker": "CheckPoint.csproj",
+              "ToolTip": "C:\\Users\\xfran\\Desktop\\2TDSPV\\Entrega-CheckPoint\\ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET-CP05\\CheckPoint\\CheckPoint.csproj",
+              "RelativeToolTip": "CheckPoint.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-09T21:40:02.712Z",
               "EditorCaption": ""
             }
           ]

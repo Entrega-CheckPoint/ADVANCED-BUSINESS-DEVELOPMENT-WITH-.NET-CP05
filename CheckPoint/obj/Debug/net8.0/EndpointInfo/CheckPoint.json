@@ -93,17 +93,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Evento"
+                "$ref": "#/components/schemas/EventoDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Evento"
+                "$ref": "#/components/schemas/EventoDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Evento"
+                "$ref": "#/components/schemas/EventoDto"
               }
             }
           }
@@ -128,25 +128,6 @@
                 }
               }
             }
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Evento"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
           }
         }
       }
@@ -228,6 +209,26 @@
             "description": "OK"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "Evento"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Evento/paginado": {
@@ -304,6 +305,47 @@
             "type": "string",
             "nullable": true
           },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "local": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoria": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacidadeMaxima": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dataCriacao": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EventoDto": {
+        "required": [
+          "data",
+          "dataCriacao",
+          "descricao",
+          "titulo"
+        ],
+        "type": "object",
+        "properties": {
           "titulo": {
             "type": "string",
             "nullable": true

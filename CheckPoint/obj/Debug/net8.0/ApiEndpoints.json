@@ -45,7 +45,7 @@
     "Parameters": [
       {
         "Name": "evento",
-        "Type": "CheckPoint.Model.Evento",
+        "Type": "CheckPoint.Dto.EventoDto",
         "IsRequired": true
       }
     ],
@@ -60,22 +60,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "CheckPoint.Controllers.EventoController",
-    "Method": "Delete",
-    "RelativePath": "api/Evento",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "CheckPoint.Controllers.EventoController",
@@ -120,6 +104,22 @@
       {
         "Name": "evento",
         "Type": "CheckPoint.Model.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CheckPoint.Controllers.EventoController",
+    "Method": "Delete",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

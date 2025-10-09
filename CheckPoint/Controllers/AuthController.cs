@@ -50,8 +50,6 @@ public class AuthController : ControllerBase
                     return StatusCode(500, new { Error = "Erro interno ao gerar token." });
                 }
 
-
-
             }
             return Unauthorized();
         }

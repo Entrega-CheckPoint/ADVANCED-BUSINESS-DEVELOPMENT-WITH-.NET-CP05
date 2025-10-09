@@ -14,7 +14,7 @@ namespace CheckPoint.Model
         public required string Titulo { get; set; }
 
         [BsonElement("Descricao")]
-        public required string descricao { get; set; }
+        public required string Descricao { get; set; }
 
         [BsonElement("Data")]
         public required DateTime Data { get; set; }
